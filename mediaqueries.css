@@ -1,0 +1,125 @@
+@media screen and (max-width: 1400px) {
+
+    }
+
+
+@media screen and (max-width: 1200px) {
+#desktop-nav {
+    display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        overflow-x: hidden;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    #home h2 {
+        font-size: 15vw;
+    }
+    #home .btns-container button {
+        position: relative;
+        font-size: 2em;
+        line-height: 0.9;
+        text-align: center;
+        border-radius: 14px;
+        padding: 25px 50px;
+      }
+      #about h3 {
+        font-size: 12vw;
+        padding-left: 20px;
+        text-align: center;
+      }
+      #about .tcontainer {
+        width: 100%;
+      }
+      #about p {
+        font-size: 7vw;
+        text-align: center;
+      }
+      #about {
+        display:block;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+      }
+      .atr_items {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      .map-img img {
+        width: 100%;
+      }
+      #gallery .btns-container button {
+        position: relative;
+        font-size: 5vw;
+        line-height: 0.9;
+        text-align: center;
+        border-radius: 14px;
+        padding: 25px 50px;
+      }
+      #gallery .reviews {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        gap: 30px;
+      }
+      #gallery .reviews p {
+        font-size: 5vw;
+        text-align: center;
+      }
+      .card1, .card2, .card3 {
+        width: 100vw;
+      }
+      #gallery2 .btns-container button {
+        position: relative;
+        font-size: 5vw;
+        line-height: 0.9;
+        text-align: center;
+        border-radius: 14px;
+        padding: 25px 50px;
+      }
+      #gallery2 .photos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 30px;
+      }
+      #gallery2 .photos img {
+        height: 100%;
+        width: 90vw;
+      }
+      .card4, .card5, .card6 {
+        width: 100vw;
+      }
+      footer .footer-ctn {
+        display: flex;
+        flex-direction: column;
+      }
+      footer p {
+        padding: 0;
+        padding-top: 30px;
+      }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+}
+
