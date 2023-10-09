@@ -294,8 +294,7 @@ a:hover {
 
 #gallery2 .photos {
     display: flex;
-    justify-content: center;
-    gap: 20em;
+    justify-content: space-evenly;
     padding-top: 5em;
 }
 
